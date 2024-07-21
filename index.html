@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pesan Romantis untuk Pacar</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* CSS dari file styles.css */
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Hallo sayangku</h1>
+  <p>Hai sayangku yang tercinta,<br>
+  Setiap detik bersamamu adalah anugerah.<br>
+  Dalam tatapanmu, kupetik arti kebahagiaan,<br>
+  Dan di pelukanmu, kutemukan kedamaian.</p>
+  
+  <div class="media">
+    <img src="images/g.jpg" alt="Kita bersama">
+    <img src="images/v.jpg" alt="Senyummu memikat">
+    <button id="playVideoBtn">Putar Video</button>
+    <video id="myVideo" controls>
+      <source src="videos/a.mp4" type="video/mp4">
+      Maaf, browser Anda tidak mendukung tag video.
+    </video>
+  </div>
+  
+  <p>Jika hidup adalah puisi, kamu adalah baitnya,<br>
+  Dalam kisah cinta, kita adalah ceritanya.<br>
+  Terima kasih karena menjadi bagian tak terpisahkan dari hidupku.<br>
+  Aku mencintaimu tanpa batas, sayangku.</p>
+  
+  <p>"Ketika mataku bertemu denganmu, hatiku merasa seperti menemukan rumah yang selama ini aku cari-cari. Kamu adalah kebahagiaan yang selalu hadir dalam setiap langkahku."</p>
+  <p>"Kamu adalah bintang yang bersinar di kegelapan hidupku. Denganmu, segalanya terasa lebih indah dan berarti."</p>
+  <p>"Setiap detik bersamamu, aku belajar bahwa cinta sejati itu seperti mengikuti aliran sungai yang tak pernah berhenti mengalir. Kamu adalah arah dan tujuanku."</p>
+  <p>"Di antara segala kerumitan dunia ini, kamu adalah kesederhanaan yang membuatku merasa tenang. Bersamamu, aku merasa lengkap."</p>
+  <p>"Cinta kita bagaikan musik yang harmonis, tiap notenya berpadu sempurna dalam melodi kehidupan kita. Aku tidak pernah bosan untuk terus mendengarkan."</p>
+  <p>"Kamu adalah seorang malaikat yang turun ke bumi untuk membawa cahaya dan kehangatan dalam hidupku. Aku bersyukur sekali memiliki kamu."</p>
+  <p>"Dalam pelukanmu, aku menemukan ketenangan yang tak ternilai harganya. Kamu adalah tempat yang paling nyaman untuk kembali setelah seharian berjuang di dunia ini."</p>
+  <p>"Cinta kita seperti lukisan yang indah, tiap sapuan kuasnya adalah kenangan manis yang kita bagi bersama. Aku tidak pernah ingin lukisan ini selesai."</p>
+  <p>"Kamu adalah jawaban atas setiap doa yang aku panjatkan. Bersamamu, aku yakin bahwa bahagia sejati itu nyata dan ada."</p>
+  <p>"Kamu adalah pahlawan dalam kisah hidupku, melengkapi setiap lembaran cerita dengan nuansa cinta yang tak terlupakan."</p>
+</div>
+
+<script>
+document.getElementById('playVideoBtn').addEventListener('click', function() {
+  var video = document.getElementById('myVideo');
+  if (video.paused) {
+    video.play();
+    this.textContent = 'Jeda Video';
+  } else {
+    video.pause();
+    this.textContent = 'Putar Video';
+  }
+});
+</script>
+
+</body>
+</html>
